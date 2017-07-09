@@ -16,9 +16,23 @@ img.fitContainer {
     max-width: 100%;
 }
 
-.bigTile {
-    margin: 15px;
-    background-color: #b0c4de;
+.blue-callout {
+    border: 1px solid #CCC;
+    border-left: 5px solid #191970;
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 5px;
+    background-color: #F1F1F5;
+    margin-bottom: 10px;
+    /*color: #191970;*/
+}
+
+div.blue-callout > h4 {
+    color: #191970;
+}
+
+.italicRight {
+    text-align: right;
+    float: right;
+    font-style: italic;
+    margin-right: 15px;
 }

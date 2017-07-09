@@ -143,6 +143,7 @@
     <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
     <Content Include="Script\Calendar.js" />
     <Content Include="Script\Home.js" />
+    <Content Include="Script\layout.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
