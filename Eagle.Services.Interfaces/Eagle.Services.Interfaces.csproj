@@ -45,9 +45,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Eagle.Domain.User\Eagle.Domain.User.csproj">
+    <ProjectReference Include="..\Eagle.Domain.User\Eagle.Domain.Users.csproj">
       <Project>{e724d411-1859-4b74-82d1-ae9bafef032f}</Project>
-      <Name>Eagle.Domain.User</Name>
+      <Name>Eagle.Domain.Users</Name>
     </ProjectReference>
     <ProjectReference Include="..\Eagle.Services.Dto\Eagle.Services.Dto.csproj">
       <Project>{d56e4f2e-6b18-4761-9549-049fc9c7cf50}</Project>

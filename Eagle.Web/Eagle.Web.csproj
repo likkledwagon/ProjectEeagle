@@ -164,9 +164,9 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Eagle.Domain.User\Eagle.Domain.User.csproj">
+    <ProjectReference Include="..\Eagle.Domain.User\Eagle.Domain.Users.csproj">
       <Project>{E724D411-1859-4B74-82D1-AE9BAFEF032F}</Project>
-      <Name>Eagle.Domain.User</Name>
+      <Name>Eagle.Domain.Users</Name>
     </ProjectReference>
     <ProjectReference Include="..\Eagle.Services.Dto\Eagle.Services.Dto.csproj">
       <Project>{d56e4f2e-6b18-4761-9549-049fc9c7cf50}</Project>
@@ -182,7 +182,7 @@
     </ProjectReference>
     <ProjectReference Include="..\Eagle.Services.Users\Eagle.Services.Users.csproj">
       <Project>{1172503a-e4b1-4271-ab9f-8bd9df776a0c}</Project>
-      <Name>Eegle.Services.Users</Name>
+      <Name>Eagle.Services.Users</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

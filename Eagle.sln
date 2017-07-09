@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E1058051-232A-45B6-A0EA-49164B6285AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eagle.Domain.User", "Eagle.Domain.User\Eagle.Domain.User.csproj", "{E724D411-1859-4B74-82D1-AE9BAFEF032F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eagle.Domain.Users", "Eagle.Domain.User\Eagle.Domain.Users.csproj", "{E724D411-1859-4B74-82D1-AE9BAFEF032F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{73DDC772-53EF-427F-923D-26649B251104}"
 EndProject
