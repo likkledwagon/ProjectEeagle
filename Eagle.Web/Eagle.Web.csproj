@@ -164,7 +164,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Eagle.Domain.User\Eagle.Domain.Users.csproj">
+    <ProjectReference Include="..\Eagle.Domain.Users\Eagle.Domain.Users.csproj">
       <Project>{E724D411-1859-4B74-82D1-AE9BAFEF032F}</Project>
       <Name>Eagle.Domain.Users</Name>
     </ProjectReference>
