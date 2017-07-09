@@ -1,0 +1,24 @@
+﻿body {
+    background-color: #708090;
+}
+
+div.wrapper {
+    width: 95%;
+    margin: auto;
+}
+
+div.padding {
+    padding: 5px;
+}
+
+img.fitContainer {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.bigTile {
+    margin: 15px;
+    background-color: #b0c4de;
+    padding: 5px;
+    border-radius: 3px;
+}

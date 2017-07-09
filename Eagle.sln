@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E1058051-232A-45B6-A0EA-49164B6285AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eagle.Domain.User", "Eagle.Domain.User\Eagle.Domain.User.csproj", "{E724D411-1859-4B74-82D1-AE9BAFEF032F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{73DDC772-53EF-427F-923D-26649B251104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eagle.Web", "Eagle.Web\Eagle.Web.csproj", "{8C73C0B0-60F2-45D4-BD2F-575D0E8105BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6324B188-71B1-4797-A575-3B7491644650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eagle.Services.Interfaces", "Eagle.Services.Interfaces\Eagle.Services.Interfaces.csproj", "{EF8DFFF7-BE37-4DFD-9C58-627813C3FBA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eagle.Services.NewsService", "Eagle.Services.NewsService\Eagle.Services.NewsService.csproj", "{5975F001-519D-4189-A55C-23A291988910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eagle.Services.Users", "Eagle.Services.Users\Eagle.Services.Users.csproj", "{1172503A-E4B1-4271-AB9F-8BD9DF776A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eagle.Services.Dto", "Eagle.Services.Dto\Eagle.Services.Dto.csproj", "{D56E4F2E-6B18-4761-9549-049FC9C7CF50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E724D411-1859-4B74-82D1-AE9BAFEF032F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E724D411-1859-4B74-82D1-AE9BAFEF032F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E724D411-1859-4B74-82D1-AE9BAFEF032F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E724D411-1859-4B74-82D1-AE9BAFEF032F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C73C0B0-60F2-45D4-BD2F-575D0E8105BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C73C0B0-60F2-45D4-BD2F-575D0E8105BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C73C0B0-60F2-45D4-BD2F-575D0E8105BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C73C0B0-60F2-45D4-BD2F-575D0E8105BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8DFFF7-BE37-4DFD-9C58-627813C3FBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8DFFF7-BE37-4DFD-9C58-627813C3FBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8DFFF7-BE37-4DFD-9C58-627813C3FBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8DFFF7-BE37-4DFD-9C58-627813C3FBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5975F001-519D-4189-A55C-23A291988910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5975F001-519D-4189-A55C-23A291988910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5975F001-519D-4189-A55C-23A291988910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5975F001-519D-4189-A55C-23A291988910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1172503A-E4B1-4271-AB9F-8BD9DF776A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1172503A-E4B1-4271-AB9F-8BD9DF776A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1172503A-E4B1-4271-AB9F-8BD9DF776A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1172503A-E4B1-4271-AB9F-8BD9DF776A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56E4F2E-6B18-4761-9549-049FC9C7CF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56E4F2E-6B18-4761-9549-049FC9C7CF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56E4F2E-6B18-4761-9549-049FC9C7CF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56E4F2E-6B18-4761-9549-049FC9C7CF50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E724D411-1859-4B74-82D1-AE9BAFEF032F} = {E1058051-232A-45B6-A0EA-49164B6285AF}
+		{8C73C0B0-60F2-45D4-BD2F-575D0E8105BC} = {73DDC772-53EF-427F-923D-26649B251104}
+		{EF8DFFF7-BE37-4DFD-9C58-627813C3FBA7} = {6324B188-71B1-4797-A575-3B7491644650}
+		{5975F001-519D-4189-A55C-23A291988910} = {6324B188-71B1-4797-A575-3B7491644650}
+		{1172503A-E4B1-4271-AB9F-8BD9DF776A0C} = {6324B188-71B1-4797-A575-3B7491644650}
+		{D56E4F2E-6B18-4761-9549-049FC9C7CF50} = {6324B188-71B1-4797-A575-3B7491644650}
+	EndGlobalSection
+EndGlobal
