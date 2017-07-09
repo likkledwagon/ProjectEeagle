@@ -1,5 +1,15 @@
-﻿
+﻿$(document).ajaxError(function (event, jqxhr, settings, exception) {
+    if (jqxhr.status === 401) {
+        $("div#UnAuthorized").fadeIn();
+    }
+});
+
+$(document).ajaxSuccess(function(eevent, jqxhr, settings, exception) {
+    $("div#UnAuthorized").fadeOut();
+});
+
 $(document).ready(function () {
+    $("div#UnAuthorized").hide();
     BindPageEvents();
     OpenHome();
 });
@@ -21,7 +31,8 @@ function FillPage(data) {
 }
 
 function BindPageEvents() {
-    $(document.getElementById("LogOutButton")).click(function() {
+    $("#LogOutButton").click(function () {
+        $("#ContentPanel").html("");
         Get("api/Users/Logout");
     });
 

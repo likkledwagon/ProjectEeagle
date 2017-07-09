@@ -10,7 +10,6 @@ namespace Eagle.Web
         public static void Run(UnityContainer container)
         {
             container.RegisterType<IUsersService, UsersService>();
-
             container.RegisterType<INewsService, NewsService>();
         }
     }
